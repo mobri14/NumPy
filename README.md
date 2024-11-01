@@ -24,7 +24,9 @@ Universal Functions (ufuncs): These functions operate on ndarray objects element
 Installation
 NumPy can be installed using pip:
 
-```pip install numpy
+```
+pip install numpy
+
 ```
 
 To verify the installation, you can import it in Python:
@@ -34,7 +36,9 @@ To verify the installation, you can import it in Python:
 ```
 import numpy as np
 print(np.__version__)
+
 ```
+
 
 
 NumPy Array Basics

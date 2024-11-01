@@ -129,10 +129,15 @@ subarray = arr[:, 1:3]
 Broadcasting: NumPy allows for operations between arrays of different shapes through broadcasting, a powerful mechanism to apply operations element-wise without needing matching dimensions.
 
 
-```# Broadcasting example
+```
+# Broadcasting example
 x = np.array([1, 2, 3])
 y = 2
-result = x * y  # Multiplies each element of x by 2```
+result = x * y  # Multiplies each element of x by 2
+```
+
+
+
 
 Why Use NumPy?
 NumPy is highly optimized and efficient, offering significant speed-ups compared to traditional Python lists when working with large datasets. Its tight integration with other data science and machine learning libraries, as well as its compatibility with performance-oriented languages, makes it ideal for high-performance computing. Using NumPy arrays and its vectorized operations helps eliminate complex loops, making code more concise and readable.
